@@ -21,7 +21,6 @@
     [super viewDidLoad];
     [_uiScrollView setScrollEnabled:YES];
     [_uiScrollView setContentSize:CGSizeMake(375, 1100)];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +33,5 @@
     aVC.carTag = sender.tag;
     [self presentViewController:aVC animated:YES completion:nil];
 }
+
 @end
